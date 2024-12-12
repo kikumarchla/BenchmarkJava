@@ -1101,6 +1101,9 @@
                 <artifactId>spotless-maven-plugin</artifactId>
                 <version>2.43.0</version>
                 <configuration>
+                    <googleJavaFormat>
+                        <version>1.10.0</version> <!-- Update this line -->
+                    </googleJavaFormat>
                     <!-- optional: limit format enforcement to just the files changed by this feature branch -->
                     <ratchetFrom>origin/master</ratchetFrom>
                     <formats>
